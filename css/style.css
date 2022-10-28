@@ -143,14 +143,17 @@ img {
         flex-direction: column;
     }
 
+    .col{
+        padding: 1rem 0;
+    }
+
     .lessons .col {
         width: 100%;
     }
 
 
-    .lessons .col img{
-        height: 100%;
+    .steps .col{
+        width: 100%;
     }
-
 
 }
