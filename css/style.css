@@ -130,13 +130,17 @@ img {
 
 @media (min-width:481px) and (max-width: 768px) {
     .container{
-        width: 768px;
+        width: 100%;
+        max-width: 768px;
+        min-width: 560px;
     }
 }
 
 @media (max-width: 480px) {
     .container{
-        width: 480px;
+        width: 100%;
+        max-width: 480px;
+        min-width: 220px;
     }
 
     .row{
