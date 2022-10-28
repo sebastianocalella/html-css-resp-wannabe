@@ -128,18 +128,12 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media (min-width:768px) and (max-width:1140px){
-    
-    .container{
-        width: 100%;
-    }
-}
+@media (min-width:481px){
 
-@media (min-width:481px) and (max-width: 768px) {
     .container{
         width: 100%;
-        max-width: 768px;
-        min-width: 560px;
+        max-width: 1140px;
+        min-width: 481px;
     }
 }
 
@@ -147,7 +141,6 @@ img {
     .container{
         width: 100%;
         max-width: 480px;
-        min-width: 220px;
     }
 
     .row{
